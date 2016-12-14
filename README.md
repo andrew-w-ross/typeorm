@@ -13,7 +13,7 @@ Share this library with friends on twitter and everywhere else you can.
 If you notice bug or have something not working please report an issue, we'll try to fix it as soon as possible.
 More documentation and features expected to be soon. Feel free to contribute.
 
-> 0.0.4 is released! Most notable changes are in the [changelog](./CHANGELOG.md).
+> 0.0.5 is released! Most notable changes are in the [changelog](./CHANGELOG.md).
 
 TypeORM is an [Object Relational Mapper](1) (ORM) for node.js written in
 TypeScript that can be used with TypeScript or JavaScript (ES5, ES6, ES7).
@@ -1047,13 +1047,28 @@ You'll use query builder in your application a lot. Learn more about QueryBuilde
 * [Query Builder](https://typeorm.github.io/query-builder.html)
 * [Entity Manager](https://typeorm.github.io/entity-manager.html)
 * [Subscribers and entity listeners](https://typeorm.github.io/subscribers-and-entity-listeners.html)
+* [Migrations](https://typeorm.github.io/migrations.html)
 * [Using service container](https://typeorm.github.io/using-service-container.html)
 * [Decorators Reference](https://typeorm.github.io/decorators-reference.html)
 * [Usage in the browser](https://typeorm.github.io/usage-in-browser.html)
+* [Using with JavaScript](https://typeorm.github.io/usage-with-javascript.html)
 
 ## Samples
 
 Take a look on samples in [./sample](sample) for examples of usage.
+
+There are few repositories which you can clone and start with:
+
+* [Example how to use TypeORM with TypeScript](https://github.com/typeorm/typescript-example)
+* [Example how to use TypeORM with JavaScript](https://github.com/typeorm/javascript-example)
+* [Example how to use TypeORM with TypeScript and SystemJS in Browser](https://github.com/typeorm/browser-example)
+
+## Extensions
+
+There are several extensions that simplify TypeORM integration with other modules:
+
+* [TypeORM integration](https://github.com/typeorm/typeorm-typedi-extensions) with [TypeDI](https://github.com/pleerock/typedi)
+* [TypeORM integration](https://github.com/typeorm/typeorm-routing-controllers-extensions) with [routing-controllers](https://github.com/pleerock/routing-controllers)
 
 ## Contributing 
 
